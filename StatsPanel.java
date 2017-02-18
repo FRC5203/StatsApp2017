@@ -39,7 +39,7 @@ class StatsPanel extends JFrame{
         autoInput.setLineWrap(true);
         autoInput.setBackground(Color.LIGHT_GRAY);
         addTextAreas(autoInput, "Autonomous Description: ");
-        
+
         shootingSlider = new JSlider(0, 10);
         shootingSlider.setPaintTicks(true);
         shootingSlider.setPaintLabels(true);
