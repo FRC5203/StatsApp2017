@@ -118,7 +118,7 @@ class StatsPanel extends JFrame{
             JOptionPane.showOptionDialog(null,
                     "Your data has been saved.",
                     "Save Location",
-                    JOptionPane.OK_OPTION,
+                    JOptionPane.YES_NO_OPTION,
                     JOptionPane.INFORMATION_MESSAGE,
                     null,
                     new String[]{"Thanks"},
@@ -145,8 +145,7 @@ class StatsPanel extends JFrame{
         sliderPanel.add(p);
     }
 
-    private void addSlider(String description, JSlider s)
-    {
+    private void addSlider(String description, JSlider s) {
         JPanel panel = new JPanel();
 
         panel.add(new JLabel(description));
