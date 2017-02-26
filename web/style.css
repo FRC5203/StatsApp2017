@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+footer{
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+}
+
+footer a {
+	color: #ef8b2d;
+	text-decoration: none;
+}
